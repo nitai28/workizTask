@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    text-align: center;
+}
+
+.header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    background: #ffd400;
+    color: #3a4b52;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.messagesContainer {
+    margin: 100px auto;
+    width: 300px;
+}
+
+.messageItem {
+    background: #3a4b52;
+    color: white;
+    border-bottom: 1px solid white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.messageItem:hover {
+    background: #ffd400;
+    color: black;
+    font-weight: 700;
+}
+
+.title {
+    font-size: 20px;
+    margin: 15px auto 0;
+    align-self: center;
+    color: #3a4b52;
+}
